@@ -1,1 +1,1 @@
-Installs chrooted debian on rooted Android phones without using busybox or any other special tools on the phone, also provides options to start/stop ssh server. 
+Installs chrooted debian on a rooted Android phone, also provides options to start/stop ssh server.
