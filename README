@@ -5,3 +5,7 @@ Create a new Android Jni Project, copy bootdeb.c to jni/ directory then run ndk-
 
 Running - 
 adb push bootdeb executable to your phone and run it, make sure debian img is copied to this location /sdcard/debian/squeeze.img before running bootdeb
+
+./bootdeb --start-ssh (to start ssh)
+
+./bootdeb --stop-ssh (to stop ssh)
