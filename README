@@ -1,1 +1,7 @@
 Installs chrooted debian on a rooted Android phone, also provides options to start/stop ssh server.
+
+Compiling -
+Create a new Android Jni Project, copy bootdeb.c to jni/ directory then run ndk-build from that directory you will the bootdeb executable getting created in <project>/libs/armeabi/ 
+
+Running - 
+adb push bootdeb executable to your phone and run it before running it make sure to copy debian img to this location /sdcard/debian/squeeze.img
